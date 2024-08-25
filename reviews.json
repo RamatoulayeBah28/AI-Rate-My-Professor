@@ -1,0 +1,124 @@
+{
+    "reviews": [
+      {
+        "professor": "Dr. Emily Chen",
+        "subject": "Computer Science",
+        "stars": 4,
+        "reviews": "Excellent teacher, explains complex concepts clearly. Assignments can be challenging."
+      },
+      {
+        "professor": "Dr. Michael Johnson",
+        "subject": "Physics",
+        "stars": 5,
+        "reviews": "Passionate about the subject, engaging lectures. Always available for office hours."
+      },
+      {
+        "professor": "Prof. Sarah Williams",
+        "subject": "English Literature",
+        "stars": 3,
+        "reviews": "Knowledgeable but sometimes disorganized. Grading can be inconsistent."
+      },
+      {
+        "professor": "Dr. David Lee",
+        "subject": "Biology",
+        "stars": 4,
+        "reviews": "Great lab instructor, brings real-world examples to class. Exams are fair."
+      },
+      {
+        "professor": "Prof. Maria Garcia",
+        "subject": "History",
+        "stars": 5,
+        "reviews": "Captivating storyteller, makes history come alive. Assignments encourage critical thinking."
+      },
+      {
+        "professor": "Dr. Robert Taylor",
+        "subject": "Chemistry",
+        "stars": 2,
+        "reviews": "Brilliant researcher but struggles to explain concepts to undergrads. Harsh grader."
+      },
+      {
+        "professor": "Prof. Jennifer Brown",
+        "subject": "Psychology",
+        "stars": 4,
+        "reviews": "Insightful lectures, encourages class participation. Heavy workload but worth it."
+      },
+      {
+        "professor": "Dr. Thomas Wilson",
+        "subject": "Mathematics",
+        "stars": 3,
+        "reviews": "Thorough explanations but can be dry. Homework is challenging but helpful."
+      },
+      {
+        "professor": "Prof. Lisa Anderson",
+        "subject": "Sociology",
+        "stars": 5,
+        "reviews": "Thought-provoking discussions, relates topics to current events. Fair grader."
+      },
+      {
+        "professor": "Dr. James Smith",
+        "subject": "Economics",
+        "stars": 4,
+        "reviews": "Clear lecturer, uses practical examples. Exams can be tricky but reflect the material."
+      },
+      {
+        "professor": "Prof. Elizabeth Davis",
+        "subject": "Art History",
+        "stars": 5,
+        "reviews": "Passionate about art, engaging presentations. Field trips are a highlight."
+      },
+      {
+        "professor": "Dr. Richard Martin",
+        "subject": "Political Science",
+        "stars": 3,
+        "reviews": "Knowledgeable but can be biased. Encourages debate but sometimes dominates discussions."
+      },
+      {
+        "professor": "Prof. Karen White",
+        "subject": "Environmental Science",
+        "stars": 4,
+        "reviews": "Enthusiastic about sustainability, practical assignments. Can be disorganized at times."
+      },
+      {
+        "professor": "Dr. Daniel Kim",
+        "subject": "Mechanical Engineering",
+        "stars": 5,
+        "reviews": "Excellent at explaining complex concepts, helpful during office hours. Challenging but fair exams."
+      },
+      {
+        "professor": "Prof. Rachel Green",
+        "subject": "Philosophy",
+        "stars": 4,
+        "reviews": "Stimulating discussions, encourages critical thinking. Reading list is extensive but rewarding."
+      },
+      {
+        "professor": "Dr. Christopher Lee",
+        "subject": "Astronomy",
+        "stars": 5,
+        "reviews": "Passionate about space, uses multimedia effectively. Star-gazing sessions are unforgettable."
+      },
+      {
+        "professor": "Prof. Amanda Nelson",
+        "subject": "Linguistics",
+        "stars": 3,
+        "reviews": "Knowledgeable but lectures can be dry. Assignments are interesting but grading is strict."
+      },
+      {
+        "professor": "Dr. Steven Clark",
+        "subject": "Geology",
+        "stars": 4,
+        "reviews": "Engaging field trips, brings rocks to life. Exams are challenging but fair."
+      },
+      {
+        "professor": "Prof. Laura Martinez",
+        "subject": "Marketing",
+        "stars": 5,
+        "reviews": "Industry experience brings valuable insights. Group projects are well-designed and relevant."
+      },
+      {
+        "professor": "Dr. William Turner",
+        "subject": "Music Theory",
+        "stars": 4,
+        "reviews": "Skilled musician and teacher, patient with beginners. Coursework is demanding but rewarding."
+      }
+    ]
+  }
