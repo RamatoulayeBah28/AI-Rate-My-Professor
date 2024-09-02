@@ -1,16 +1,6 @@
 import { NextResponse } from "next/server";
 import { Pinecone } from '@pinecone-database/pinecone';
 import OpenAI from 'openai';
-import fetch from "node-fetch";
-import { GoogleGenerativeAI } from "@google/generative-ai";
-
-const apiKey = process.env.GEMINI_API_KEY;
-const genAI = new GoogleGenerativeAI(apiKey);
-const index = new Pinecone({
-    apiKey: process.env.PINECONE_API_KEY,
-  })
-    .index("rag-index")
-    .namespace("ns1");
 
 const systemPrompt = `
 # Rate My Professor Agent System Prompt
@@ -61,33 +51,6 @@ Human: I'm looking for a biology professor who specializes in marine ecosystems 
 `;
 
 export async function POST(req) {
-//     try {
-//         const messages = await req.json();
-//         const userMessage = messages[messages.length - 1];
-//         const userQuery = userMessage.content;
-    
-//         const [queryEmbedding] = await fetchEmbeddingsWithRetry(userQuery);
-//         const results = await index.query({
-//           vector: queryEmbedding,
-//           topK: 3,
-//         });
-    
-//         const context = results.matches.map((match) => match.metadata.review).join("\n");
-//         const prompt = `${systemPrompt}\n\n**Query:** ${userQuery}\n\n**Context:** ${context}`;
-    
-//         const response = await genAI.generateText({
-//           prompt: prompt,
-//           model: "text-davinci-003",
-//           maxTokens: 500,
-//         });
-    
-
-//       return NextResponse.json({ content: response.choices[0].text });
-//     } catch (error) {
-//       console.error("Error processing request:", error);
-//       return NextResponse.json({ error: "Failed to process request." }, { status: 500 });
-//     }
-// }
 
     const data = await req.json()
     const pc = new Pinecone({
